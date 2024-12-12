@@ -34,12 +34,15 @@ while 1
                     check = true
                     if password_hash == dados[i].senha
                         print "bem vindo"
+                        logado=true
                     else
                         print color('r',"bandido detectado!")
+                        logado=false
                 
             if check == false
                 print "usuario nao existe"
-            logado=true
+                logado=false
+
             entrada=-1
     if logado==true
         print 'sorteio[1] delete[2] sair[0]'
@@ -48,7 +51,7 @@ while 1
             qtd = len(dados)
             print dados[random 0,qtd-1].login+" ganhou o sorteio"
             entrada=-1
-        if entrada='2'
+        else if entrada=='2'
             matchL = false
             print "digite o login: "
             login = input()
@@ -64,5 +67,5 @@ while 1
                 print 'usuário não existe'
             save_yaml 'users.yaml', dados
             entrada=-1
-        if entrada=='0'
+        else if entrada=='0'
             break
