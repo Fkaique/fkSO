@@ -1,0 +1,33 @@
+- usuario: kaique
+  arquivo:
+    - arq1
+    - arq2
+  tamanho:
+    - 10
+    - 20
+- usuario: arthur
+  arquivo:
+    - arq1
+    - arq2
+  tamanho:
+    - 10
+    - 3
+- usuario: neh
+  arquivo:
+    - qwe
+    - wer
+  tamanho:
+    - 10
+    - 20
+- usuario: qwe
+  arquivo:
+    - enh1
+    - asd
+  tamanho:
+    - 20
+    - 40
+- usuario: wer
+  arquivo:
+    - we
+  tamanho:
+    - 40
